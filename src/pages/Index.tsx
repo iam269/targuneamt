@@ -5,6 +5,7 @@ import Attractions from '@/components/Attractions';
 import Events from '@/components/Events';
 import Map from '@/components/Map';
 import Gallery from '@/components/Gallery';
+import DeviceShowcase from '@/components/DeviceShowcase';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -18,6 +19,7 @@ const Index = () => {
       <Events />
       <Map />
       <Gallery />
+      <DeviceShowcase />
       <Contact />
       <Footer />
     </div>
