@@ -1,49 +1,50 @@
-import { Smartphone, Tablet, Monitor } from 'lucide-react';
-
 const DeviceShowcase = () => {
-  const devices = [
-    {
-      icon: Smartphone,
-      label: 'Mobile',
-      description: 'Optimizat pentru telefon',
-    },
-    {
-      icon: Tablet,
-      label: 'Tabletă',
-      description: 'Adaptat pentru tabletă',
-    },
-    {
-      icon: Monitor,
-      label: 'Desktop',
-      description: 'Experiență completă pe PC',
-    },
-  ];
-
   return (
     <section className="py-16 bg-secondary/50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-4">
-          Vizualizare pe Toate Dispozitivele
+          Explorează Târgu Neamț
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Site-ul nostru este complet responsiv și funcționează perfect pe orice tip de dispozitiv
+          Descoperă frumusețile și legendele celui mai pitoresc oraș din Moldova. Un ghid complet pentru turiști și vizitatori.
         </p>
         
-        <div className="flex justify-center items-end gap-8 flex-wrap">
-          {devices.map((device, index) => (
-            <div 
-              key={index}
-              className="flex flex-col items-center"
-            >
-              <div className="bg-background rounded-2xl p-8 shadow-lg border-2 border-primary/20 hover:border-primary/40 transition-colors">
-                <device.icon className="w-16 h-16 text-primary" />
-              </div>
-              <div className="mt-4 text-center">
-                <h3 className="font-semibold text-lg">{device.label}</h3>
-                <p className="text-sm text-muted-foreground">{device.description}</p>
-              </div>
-            </div>
-          ))}
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
+          {/* Left side - Text content */}
+          <div className="text-center lg:text-left max-w-lg">
+            <h3 className="text-2xl font-bold mb-4">Tot ce ai nevoie într-un singur loc</h3>
+            <ul className="space-y-4">
+              <li className="flex items-center gap-3">
+                <span className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center text-primary">✓</span>
+                <span>Ghid complet al obiectivelor turistice</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center text-primary">✓</span>
+                <span>Informații despre mănăstiri și cetăți</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center text-primary">✓</span>
+                <span>Evenimente și festivaluri locale</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center text-primary">✓</span>
+                <span>Galerie foto și video</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center text-primary">✓</span>
+                <span>Hartă interactivă a zonei</span>
+              </li>
+            </ul>
+          </div>
+          
+          {/* Right side - Device mockup image */}
+          <div className="hidden lg:block">
+            <img 
+              src="/apple-responsive-devices-mockup (1).png" 
+              alt="Device mockup" 
+              className="max-w-md w-full h-auto rounded-lg shadow-xl"
+            />
+          </div>
         </div>
       </div>
     </section>
