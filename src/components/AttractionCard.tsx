@@ -1,20 +1,25 @@
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 interface AttractionCardProps {
   title: string;
   description: string;
   image: string;
   index: number;
+  slug: string;
 }
 
-const AttractionCard = ({ title, description, image, index }: AttractionCardProps) => {
+const AttractionCard = ({ title, description, image, index, slug }: AttractionCardProps) => {
+  const navigate = useNavigate();
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
-      className="group bg-card rounded-xl overflow-hidden shadow-medium hover:shadow-heavy transition-all duration-300"
+      onClick={() => navigate(`/atractii/${slug}`)}
+      className="group bg-card rounded-xl overflow-hidden shadow-medium hover:shadow-heavy transition-all duration-300 cursor-pointer"
     >
       <div className="relative h-64 overflow-hidden">
         <motion.img

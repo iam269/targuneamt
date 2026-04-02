@@ -20,36 +20,42 @@ const Attractions = () => {
       description:
         'Fortificație medievală impresionantă din secolul al XIV-lea, situată pe un deal strategic. Una dintre cele mai bine păstrate cetăți din România, oferă priveliști spectaculoase asupra împrejurimilor.',
       image: cetateaNeamt,
+      slug: 'cetatea-neamt',
     },
     {
       title: 'Casa Ion Creangă - Humulești',
       description:
         'Casa memorială a celebrului scriitor Ion Creangă, păstrând atmosfera în care au fost scrise povestirile clasice românești. Un loc plin de istorie literară și nostalgie.',
       image: casaCreanga,
+      slug: 'casa-creanga',
     },
     {
       title: 'Mănăstirea Neamț',
       description:
         'Una dintre cele mai vechi și importante mănăstiri din Moldova, fondată în secolul al XIV-lea. Centru spiritual și cultural de o importanță deosebită pentru ortodoxia românească.',
       image: manastireaNemt,
+      slug: 'manastirea-neamt',
     },
     {
       title: 'Mănăstirea Agapia',
       description:
         'Complex monahal renumit pentru pictura în stil neobizantin a lui Nicolae Grigorescu. Situată într-un cadru natural de poveste, este un loc de linişte şi contemplare.',
       image: agapia,
+      slug: 'agapia',
     },
     {
       title: 'Mănăstirea Văratec',
       description:
         'Mănăstire de maici cunoscută pentru atmosfera sa pașnică și pentru frumoasele grădini. Un refugiu spiritual în mijlocul naturii verzi a Moldovei.',
       image: varatec,
+      slug: 'varatec',
     },
     {
       title: 'Muzeul de Istorie și Etnografie',
       description:
         'Muzeu care prezintă bogata moștenire istorică și culturală a zonei Neamț, cu exponate ce acoperă perioada de la preistorie până în epoca modernă.',
       image: museum,
+      slug: 'muzeu-istorie',
     },
   ];
 
@@ -75,7 +81,10 @@ const Attractions = () => {
           {attractions.map((attraction, index) => (
             <AttractionCard
               key={attraction.title}
-              {...attraction}
+              title={attraction.title}
+              description={attraction.description}
+              image={attraction.image}
+              slug={attraction.slug}
               index={index}
             />
           ))}
