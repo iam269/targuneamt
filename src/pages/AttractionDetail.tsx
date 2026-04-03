@@ -190,7 +190,10 @@ const AttractionDetail = () => {
           <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
             <div className="container mx-auto">
               <Button
-                onClick={() => navigate('/')}
+                onClick={() => {
+                  sessionStorage.setItem('fromAttractions', 'true');
+                  navigate('/');
+                }}
                 variant="outline"
                 className="mb-6 gap-2 bg-background/80 backdrop-blur-sm"
               >
