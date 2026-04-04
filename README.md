@@ -1,5 +1,11 @@
 # Târgu Neamț - Tourist Website
 
+## Live Demo
+
+Visit the live website: [targuneamt.vercel.app](https://targuneamt.vercel.app)
+
+![Screenshot](public/Screenshot.png)
+
 ## Description
 
 Official website for promoting tourism in Târgu Neamț, Neamț County, Romania. The site presents tourist attractions, local events, and provides useful information for visitors.
