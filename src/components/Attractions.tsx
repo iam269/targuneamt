@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import AttractionCard from './AttractionCard';
-import cetateaNeamt from '@/assets/images/cetatea-neamt.jpg';
 import casaCreanga from '@/assets/images/casa-creanga.jpg';
 import manastireaNemt from '@/assets/images/manastirea-neamt.jpg';
 import agapia from '@/assets/images/agapia.jpg';
@@ -19,7 +18,7 @@ const Attractions = () => {
       title: 'Cetatea Neamțului',
       description:
         'Fortificație medievală impresionantă din secolul al XIV-lea, situată pe un deal strategic. Una dintre cele mai bine păstrate cetăți din România, oferă priveliști spectaculoase asupra împrejurimilor.',
-      image: cetateaNeamt,
+      image: '/cetatea neamt/img7.png',
       slug: 'cetatea-neamt',
     },
     {

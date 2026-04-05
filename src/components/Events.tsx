@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Calendar, Music, Palette, Utensils, Theater, Flame } from 'lucide-react';
-import cetateaNeamt from '@/assets/images/cetatea-neamt.jpg';
 import agapia from '@/assets/images/agapia.jpg';
 import varatec from '@/assets/images/varatec.jpg';
 import museum from '@/assets/images/museum.jpg';
@@ -26,7 +25,7 @@ const events: LocalEvent[] = [
     location: 'Cetatea Neamțului',
     category: 'festival',
     description: 'Cel mai mare festival medieval din Moldova, cu spectacole de jongleri, reconstituiri istorice și torturi medievale.',
-    image: cetateaNeamt,
+    image: '/cetatea neamt/img7.png',
   },
   {
     name: 'Târgul Mărțișorului',

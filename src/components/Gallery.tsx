@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import cetateaNeamt from '@/assets/images/cetatea-neamt.jpg';
 import casaCreanga from '@/assets/images/casa-creanga.jpg';
 import manastireaNemt from '@/assets/images/manastirea-neamt.jpg';
 import agapia from '@/assets/images/agapia.jpg';
@@ -14,7 +13,7 @@ const Gallery = () => {
   });
 
   const images = [
-    { src: cetateaNeamt, alt: 'Cetatea Neamțului' },
+    { src: '/cetatea neamt/img7.png', alt: 'Cetatea Neamțului' },
     { src: casaCreanga, alt: 'Casa Ion Creangă' },
     { src: manastireaNemt, alt: 'Mănăstirea Neamț' },
     { src: agapia, alt: 'Mănăstirea Agapia' },

@@ -1,11 +1,11 @@
-import { useEffect } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import { useParams, useNavigate } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import cetateaNeamt from '@/assets/images/cetatea-neamt.jpg';
+
 import casaCreanga from '@/assets/images/casa-creanga.jpg';
 import manastireaNemt from '@/assets/images/manastirea-neamt.jpg';
 import agapia from '@/assets/images/agapia.jpg';
@@ -16,7 +16,7 @@ const attractionsData = {
   'cetatea-neamt': {
     title: 'Cetatea Neamțului',
     description: 'Fortificație medievală impresionantă din secolul al XIV-lea, situată pe un deal strategic. Una dintre cele mai bine păstrate cetăți din România, oferă priveliști spectaculoase asupra împrejurimilor.',
-    image: cetateaNeamt,
+    image: '/cetatea neamt/img7.png',
     fullDescription: `Cetatea Neamțului este una dintre cele mai importante fortificații medievale din România, construită în secolul al XIV-lea în timpul domniei lui Petru Mușat. Așezată pe un deal stâncos la 480m altitudine, cetatea domina valea Ozanei și controla drumul comercial dintre Moldova și Transilvania.
 
 În timpul lui Ștefan cel Mare, cetatea a fost consolidată și au fost adăugate turnuri de apărare masive. Zidurile de piatră au o grosime de până la 3 metri în unele locuri, iar turnurile de colț ofereau poziții strategice pentru apărare.
@@ -33,7 +33,29 @@ Astăzi, vizitatorii pot explora ruinele bine conservate ale cetății, pot urca
       'Elevi/Studenți': '5 RON',
       'Pensionari': '7 RON',
     },
-    gallery: [cetateaNeamt, cetateaNeamt, cetateaNeamt],
+    gallery: [
+      '/cetatea neamt/img1.png',
+      '/cetatea neamt/img2.png',
+      '/cetatea neamt/img3.png',
+      '/cetatea neamt/img4.png',
+      '/cetatea neamt/img5.png',
+      '/cetatea neamt/img6.png',
+      '/cetatea neamt/img7.png',
+      '/cetatea neamt/img8.png',
+      '/cetatea neamt/img9.png',
+      '/cetatea neamt/img10.png',
+      '/cetatea neamt/img11.png',
+      '/cetatea neamt/img12.png',
+      '/cetatea neamt/img13.png',
+      '/cetatea neamt/img14.png',
+      '/cetatea neamt/img15.png',
+      '/cetatea neamt/img16.png',
+      '/cetatea neamt/img17.png',
+      '/cetatea neamt/img18.png',
+      '/cetatea neamt/img19.png',
+      '/cetatea neamt/img20.png',
+      '/cetatea neamt/img21.png',
+    ],
   },
   'casa-creanga': {
     title: 'Casa Ion Creangă - Humulești',
@@ -150,10 +172,46 @@ const AttractionDetail = () => {
   const { slug } = useParams();
   const navigate = useNavigate();
   const attraction = slug ? attractionsData[slug as keyof typeof attractionsData] : null;
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const openLightbox = useCallback((index: number) => {
+    setCurrentIndex(index);
+    setLightboxOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeLightbox = useCallback(() => {
+    setLightboxOpen(false);
+    document.body.style.overflow = 'unset';
+  }, []);
+
+  const nextImage = useCallback(() => {
+    if (attraction) {
+      setCurrentIndex((prev) => (prev + 1) % attraction.gallery.length);
+    }
+  }, [attraction]);
+
+  const prevImage = useCallback(() => {
+    if (attraction) {
+      setCurrentIndex((prev) => (prev - 1 + attraction.gallery.length) % attraction.gallery.length);
+    }
+  }, [attraction]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (!lightboxOpen) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') nextImage();
+      if (e.key === 'ArrowLeft') prevImage();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [lightboxOpen, nextImage, prevImage, closeLightbox]);
 
   if (!attraction) {
     return (
@@ -237,7 +295,8 @@ const AttractionDetail = () => {
                   {attraction.gallery.map((img, idx) => (
                     <div
                       key={idx}
-                      className="aspect-[4/3] rounded-xl overflow-hidden shadow-medium hover:shadow-heavy transition-all duration-300"
+                      className="aspect-[4/3] rounded-xl overflow-hidden shadow-medium hover:shadow-heavy transition-all duration-300 cursor-pointer"
+                      onClick={() => openLightbox(idx)}
                     >
                       <img
                         src={img}
@@ -309,6 +368,45 @@ const AttractionDetail = () => {
           </div>
         </div>
       </motion.div>
+
+      {lightboxOpen && (
+        <div 
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center"
+          onClick={closeLightbox}
+        >
+          <button
+            className="absolute top-4 right-4 text-white p-2 hover:bg-white/20 rounded-full transition-colors"
+            onClick={closeLightbox}
+          >
+            <X className="w-8 h-8" />
+          </button>
+
+          <button
+            className="absolute left-4 text-white p-2 hover:bg-white/20 rounded-full transition-colors"
+            onClick={(e) => { e.stopPropagation(); prevImage(); }}
+          >
+            <ChevronLeft className="w-10 h-10" />
+          </button>
+
+          <img
+            src={attraction.gallery[currentIndex]}
+            alt={`${attraction.title} - ${currentIndex + 1}`}
+            className="max-h-[90vh] max-w-[90vw] object-contain"
+            onClick={(e) => e.stopPropagation()}
+          />
+
+          <button
+            className="absolute right-4 text-white p-2 hover:bg-white/20 rounded-full transition-colors"
+            onClick={(e) => { e.stopPropagation(); nextImage(); }}
+          >
+            <ChevronRight className="w-10 h-10" />
+          </button>
+
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm">
+            {currentIndex + 1} / {attraction.gallery.length}
+          </div>
+        </div>
+      )}
 
       <Footer />
     </div>
