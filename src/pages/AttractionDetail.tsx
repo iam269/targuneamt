@@ -104,7 +104,7 @@ Grădina casei include un mic muzeu etnografic cu unelte agricole tradiționale 
   'manastirea-neamt': {
     title: 'Mănăstirea Neamț',
     description: 'Una dintre cele mai vechi și importante mănăstiri din Moldova, fondată în secolul al XIV-lea. Centru spiritual și cultural de o importanță deosebită pentru ortodoxia românească.',
-    image: manastireaNemt,
+    image: '/manastirea neamt/img2.png',
     fullDescription: `Mănăstirea Neamț este unul dintre cele mai importante așezăminte monahale din România, cu o istorie care se întinde pe peste șase secole. Fondată în timpul domniei lui Petru Mușat, mănăstirea a devenit un centru major de cultură și spiritualitate ortodoxă.
 
 Biserica mănăstirii, construită în stil moldovenesc tradițional, găzduiește o colecție valoroasă de icoane vechi și manuscrise. Biblioteca mănăstirii conține cărți rare și documente istorice de valoare inestimabilă.

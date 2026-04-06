@@ -32,7 +32,7 @@ const Attractions = () => {
       title: 'Mănăstirea Neamț',
       description:
         'Una dintre cele mai vechi și importante mănăstiri din Moldova, fondată în secolul al XIV-lea. Centru spiritual și cultural de o importanță deosebită pentru ortodoxia românească.',
-      image: manastireaNemt,
+      image: '/manastirea neamt/img2.png',
       slug: 'manastirea-neamt',
     },
     {

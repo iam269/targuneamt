@@ -73,7 +73,7 @@ const events: LocalEvent[] = [
     location: 'Piața Centrală',
     category: 'fair',
     description: 'Târg de produse tradiționale: miere, legume, fructe și preparate din sezon.',
-    image: manastireaNeamt,
+    image: '/manastirea neamt/img2.png',
   },
   {
     name: 'Ziua Culturii Românești',
