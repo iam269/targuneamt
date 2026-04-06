@@ -65,7 +65,7 @@ const events: LocalEvent[] = [
     location: 'Casa de Cultură Târgu Neamț',
     category: 'performance',
     description: 'Spectacol de Crăciun cu datini și obiceiuri specifice zonei Neamț.',
-    image: casaCreanga,
+    image: '/casa lui ion creanga/img1.png',
   },
   {
     name: 'Târgul de Toamnă',

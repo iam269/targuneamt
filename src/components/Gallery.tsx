@@ -14,7 +14,7 @@ const Gallery = () => {
 
   const images = [
     { src: '/cetatea neamt/img7.png', alt: 'Cetatea Neamțului' },
-    { src: casaCreanga, alt: 'Casa Ion Creangă' },
+    { src: '/casa lui ion creanga/img1.png', alt: 'Casa Ion Creangă' },
     { src: manastireaNemt, alt: 'Mănăstirea Neamț' },
     { src: agapia, alt: 'Mănăstirea Agapia' },
     { src: varatec, alt: 'Mănăstirea Văratec' },

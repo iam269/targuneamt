@@ -60,7 +60,7 @@ Astăzi, vizitatorii pot explora ruinele bine conservate ale cetății, pot urca
   'casa-creanga': {
     title: 'Casa Ion Creangă - Humulești',
     description: 'Casa memorială a celebrului scriitor Ion Creangă, păstrând atmosfera în care au fost scrise povestirile clasice românești. Un loc plin de istorie literară și nostalgie.',
-    image: casaCreanga,
+    image: '/casa lui ion creanga/img1.png',
     fullDescription: `Casa memorială Ion Creangă din Humulești este locul unde s-a născut și a copilărit unul dintre cei mai iubiți scriitori români. Construită în stil tradițional moldovenesc, casa a fost restaurată pentru a păstra atmosfera autentică din secolul al XIX-lea.
 
 În interior, vizitatorii pot vedea obiecte personale ale scriitorului, manuscrise originale, ediții rare ale operelor sale și mobilier de epocă. Fiecare cameră spune o poveste despre viața și creația literară a lui Creangă.
@@ -78,7 +78,28 @@ Grădina casei include un mic muzeu etnografic cu unelte agricole tradiționale 
       'Elevi/Studenți': '4 RON',
       'Pensionari': '6 RON',
     },
-    gallery: [casaCreanga, casaCreanga, casaCreanga],
+    gallery: [
+      '/casa lui ion creanga/img1.png',
+      '/casa lui ion creanga/img2.png',
+      '/casa lui ion creanga/img3.png',
+      '/casa lui ion creanga/img4.png',
+      '/casa lui ion creanga/img5.png',
+      '/casa lui ion creanga/img6.png',
+      '/casa lui ion creanga/img7.png',
+      '/casa lui ion creanga/img8.png',
+      '/casa lui ion creanga/img9.png',
+      '/casa lui ion creanga/img10.png',
+      '/casa lui ion creanga/img11.png',
+      '/casa lui ion creanga/img12.png',
+      '/casa lui ion creanga/img13.png',
+      '/casa lui ion creanga/img14.png',
+      '/casa lui ion creanga/img15.png',
+      '/casa lui ion creanga/img16.png',
+      '/casa lui ion creanga/img17.png',
+      '/casa lui ion creanga/img18.png',
+      '/casa lui ion creanga/img19.png',
+      '/casa lui ion creanga/img20.png',
+    ],
   },
   'manastirea-neamt': {
     title: 'Mănăstirea Neamț',

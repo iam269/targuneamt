@@ -25,7 +25,7 @@ const Attractions = () => {
       title: 'Casa Ion Creangă - Humulești',
       description:
         'Casa memorială a celebrului scriitor Ion Creangă, păstrând atmosfera în care au fost scrise povestirile clasice românești. Un loc plin de istorie literară și nostalgie.',
-      image: casaCreanga,
+      image: '/casa lui ion creanga/img1.png',
       slug: 'casa-creanga',
     },
     {
