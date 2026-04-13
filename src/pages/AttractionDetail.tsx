@@ -130,7 +130,7 @@ De-a lungul secolelor, Mănăstirea Neamț a jucat un rol crucial în păstrarea
   'agapia': {
     title: 'Mănăstirea Agapia',
     description: 'Complex monahal renumit pentru pictura în stil neobizantin a lui Nicolae Grigorescu. Situată într-un cadru natural de poveste, este un loc de liniște și contemplare.',
-    image: agapia,
+    image: '/manastirea agapia/img1.png',
     fullDescription: `Mănăstirea Agapia, situată într-o poiană înconjurată de păduri seculare, este renumită pentru frumusețea sa arhitecturală și pentru picturile murale realizate de tânărul Nicolae Grigorescu. Acesta a decorat biserica mănăstirii în 1858-1860, înainte de a deveni celebru ca pictor.
 
 Complexul monahal include mai multe clădiri construite în diferite perioade istorice, fiecare adăugând un strat la bogata istorie a locului. Biserica principală, cu turnurile sale zvelte, domină peisajul și poate fi văzută de la distanță.
@@ -146,7 +146,22 @@ Mănăstirea găzduiește o comunitate activă de călugărițe care se dedică 
       'Acces': 'Gratuit',
       'Donatii': 'Opțional',
     },
-    gallery: [agapia, agapia, agapia],
+    gallery: [
+      '/manastirea agapia/img1.png',
+      '/manastirea agapia/img2.png',
+      '/manastirea agapia/img3.png',
+      '/manastirea agapia/img4.png',
+      '/manastirea agapia/img5.png',
+      '/manastirea agapia/img6.png',
+      '/manastirea agapia/img7.png',
+      '/manastirea agapia/img8.png',
+      '/manastirea agapia/img9.png',
+      '/manastirea agapia/img10.png',
+      '/manastirea agapia/img11.png',
+      '/manastirea agapia/img12.png',
+      '/manastirea agapia/img13.png',
+      '/manastirea agapia/img14.png',
+    ],
   },
   'varatec': {
     title: 'Mănăstirea Văratec',
