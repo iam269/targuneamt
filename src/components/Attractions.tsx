@@ -51,6 +51,69 @@ const Attractions = () => {
       image: '/muzeul de istorie si etnografie/img1.png',
       slug: 'muzeu-istorie',
     },
+    {
+      title: 'Parcul Cetate',
+      description:
+        'Parc istoric situat la poalele Cetății Neamțului, cu alei pavate și vegetație seculară. Loc ideal pentru plimbări și priveliști spre cetate.',
+      image: '/parc cetate/img1.png',
+      slug: 'parc-cetate',
+    },
+    {
+      title: 'Casa Memorială Veronica Micle',
+      description:
+        'Casa memorială a celebrei poete Veronica Micle, soția lui Ion Creangă. Un loc dedicat memoriei marii poete a literaturii române.',
+      image: '/casa memoriala veronica micle/img1.png',
+      slug: 'casa-memoriala-veronica-micle',
+    },
+    {
+      title: 'Cimitirul Evreiesc',
+      description:
+        'Cimitirul evreiesc istoric din Târgu Neamț, cu pietre funerare sculptate și inscripții în ebraică. Mărturie a comunității evreiești importante din zonă.',
+      image: '/cimitirul evreiesc/img1.png',
+      slug: 'cimitirul-evreiesc',
+    },
+    {
+      title: 'Biserica Adormirii Maicii Domnului',
+      description:
+        'Biserică monument istoric din centrul Târgu Neamțului, cu arhitectură moldovenească tradițională și icoane valoroase.',
+      image: '/biserica adormirii maicii domnului/img1.png',
+      slug: 'biserica-adormirii-maicii-domnului',
+    },
+    {
+      title: 'Casa Culturii Ion Creangă',
+      description:
+        'Centru cultural cu săli de expoziție, bibliotecă și spectacole. Poartă numele marelui scriitor Ion Creangă.',
+      image: '/casa culturii ion creanga/img1.png',
+      slug: 'casa-culturi-ion-creanga',
+    },
+    {
+      title: 'Stadionul Cetate',
+      description:
+        'Stadionul municipal din Târgu Neamț, cu vedere spre cetatea medievală. Arena sportivă a orașului.',
+      image: '/stadion cetate/img1.png',
+      slug: 'stadion-cetate',
+    },
+    {
+      title: 'Statuia lui Ion Creangă',
+      description:
+        'Monumentul sculptural dedicat marelui scriitor Ion Creangă, situat în centrul orașului Târgu Neamț.',
+      image: '/statuia ion creanga/img1.png',
+      slug: 'statuia-ion-creanga',
+    },
+    {
+      title: 'Monumentul Eroilor',
+      description:
+        'Monument commemorativ ridicat în cinșta eroilor români din Primul Război Mondial și Al Doilea Război Mondial.',
+      image: '/monumentul eroilor/img1.png',
+      slug: 'monumentul-eroilor',
+    },
+    {
+      title: 'Parcul Natural Vânători-Neamț',
+      description:
+        'Arie protejată de interes național cu floră și faună specifică Carpaților Orientali. Habitat pentru zimbri și urși.',
+      image: '/parcul natural vanatori-neamt/img1.png',
+      slug: 'parcul-natural-vanatori-neamt',
+    },
   ];
 
   return (

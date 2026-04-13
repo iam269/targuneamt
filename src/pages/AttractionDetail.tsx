@@ -232,6 +232,209 @@ Secția etnografică prezintă costume tradiționale, unelte agricole, obiecte c
       '/muzeul de istorie si etnografie/img10.png',
     ],
   },
+  'parc-cetate': {
+    title: 'Parcul Cetate',
+    description: 'Parc istoric situat la poalele Cetății Neamțului, cu alei pavate și vegetație seculară. Loc ideal pentru plimbări și priveliști spre cetate.',
+    image: '/parc cetate/img1.png',
+    fullDescription: `Parcul Cetate este unul dintre cele mai vechi parcuri din Târgu Neamț, situat la poalele Cetății medievale. Parcul a fost amenajat în perioada interbelică și păstrează încă atmosfera acelor vremuri.
+
+Aleile sale pavate sunt înconjurate de copaci seculari, printre care se numără stejari, fagi și castani. Băncile de piatră oferă locuri de odihnă cu vedere spre cetate. În parcul se află mai multe sculpturi și monumente commemorative.
+
+Parcul este popular atât pentru localnici, cât și pentru turiști, fiind un loc de relaxare și de contemplare a trecutului glorios al cetății.`,
+    location: 'Târgu Neamț, județul Neamț',
+    period: 'Perioada interbelică',
+    accessibility: 'Accesibil public',
+    schedule: {
+      'Non-stop': 'Acces liber',
+    },
+    admission: {
+      'Acces': 'Gratuit',
+    },
+    gallery: [
+      '/parc cetate/img1.png',
+    ],
+  },
+  'casa-memoriala-veronica-micle': {
+    title: 'Casa Memorială Veronica Micle',
+    description: 'Casa memorială a celebrei poete Veronica Micle, soția lui Ion Creangă. Un loc dedicat memoriei marii poete a literaturii române.',
+    image: '/casa memoriala veronica micle/img1.png',
+    fullDescription: `Casa Memorială Veronica Micle este situată în centrul Târgu Neamțului și găzduiește o colecție de obiecte personale ale poetei, manuscrise, fotografii și documente din arhiva familiei.
+
+Veronica Micle (1850-1889) a fost una dintre cele mai importante poete ale literaturii române din secolul XIX. Casa păstrează atmosfera sfârșitului de secol XIX, cu mobilă de epocă și obiecte specifice perioadei.
+
+Vizitatorii pot vedea相机 în care a scris poeta, prima ediție a operelor sale și corespondența cu Ion Creangă, soțul său. Casa este un pelerinaj pentru iubitorii literaturii române.`,
+    location: 'Târgu Neamț, județul Neamț',
+    period: 'Secolul XIX',
+    accessibility: 'Muzeu memorial',
+    schedule: {
+      'Marți-Duminică': '10:00 - 17:00',
+      'Luni': 'Închis',
+    },
+    admission: {
+      'Adulți': '8 RON',
+      'Elevi/Studenți': '4 RON',
+      'Pensionari': '6 RON',
+    },
+    gallery: [
+      '/casa memoriala veronica micle/img1.png',
+    ],
+  },
+  'cimitirul-evreiesc': {
+    title: 'Cimitirul Evreiesc',
+    description: 'Cimitirul evreiesc istoric din Târgu Neamț, cu pietre funerare sculptate și inscripții în ebraică. Mărturie a comunității evreiești importantă din zonă.',
+    image: '/cimitirul evreiesc/img1.png',
+    fullDescription: `Cimitirul Evreiesc din Târgu Neamț este un sit istoric important, care păstrează memoria comunității evreiești care a trăit în zonă de-a lungul secolelor.
+
+Pietele funerare din cimitir sunt opere de artă, cu inscripții în ebraică și elemente simbolice specifice tradiției iudaice. Unele datează din secolul XVIII și oferă informații valoroase despre comunitatea evreiască din Târgu Neamț.
+
+Situl este important pentru studiul istoriei locale și pentru păstrarea memoriei comunităților care au trăit împreună în această zonă a Moldovei.`,
+    location: 'Târgu Neamț, județul Neamț',
+    period: 'Secolul XVIII-XX',
+    accessibility: 'Acces restrictiv',
+    schedule: {
+      'Program': 'Cu programare prealabilă',
+    },
+    admission: {
+      'Donatii': 'Opțional',
+    },
+    gallery: [
+      '/cimitirul evreiesc/img1.png',
+    ],
+  },
+  'biserica-adormirii-maicii-domnului': {
+    title: 'Biserica Adormirii Maicii Domnului',
+    description: 'Biserică monument istoric din centrul Târgu Neamțului, cu arhitectură moldovenească tradițională și icoane valoroase.',
+    image: '/biserica adormirii maicii domnului/img1.png',
+    fullDescription: `Biserica Adormirii Maicii Domnului din Târgu Neamț este unul dintre cele mai importante lăcașuri de cult din oraș. Biserica a fost construită în stilul moldovenesc tradițional, cu elemente caracteristice arhitecturii religioase din Moldova.
+
+Interiorul bisericii găzduiește o colecție valoroasă de icoane sculptate și pictate, majoritatea din secolul XIX. Icoana patronului spiritual al bisericii - Adormirea Maicii Domnului - este considerată ocrotitoarea orașului.
+
+Biserica este un centru important de spiritualitate pentru comunitatea locală și atrage pelerini din întreaga zonă a Neamțului, mai ales în perioadele de sărbători religioase.`,
+    location: 'Târgu Neamț, județul Neamț',
+    period: 'Secolul XIX',
+    accessibility: 'Biserică activă',
+    schedule: {
+      'Luni-Duminică': '07:00 - 19:00',
+    },
+    admission: {
+      'Acces': 'Gratuit',
+    },
+    gallery: [
+      '/biserica adormirii maicii domnului/img1.png',
+    ],
+  },
+  'casa-culturi-ion-creanga': {
+    title: 'Casa Culturii Ion Creangă',
+    description: 'Centru cultural cu săli de expoziție, bibliotecă și spectacole. Poartă numele marelui scriitor Ion Creangă.',
+    image: '/casa culturii ion creanga/img1.png',
+    fullDescription: `Casa Culturii Ion Creangă din Târgu Neamț este principalul centru cultural al orașului. Clădirea modernă găzduiește spații expoziționale, o bibliotecă publică, săli de conferințe și un mic amfiteatru în aer liber.
+
+Centrul organizează evenimente culturale regulate: expoziții de artă, conferințe, spectacole de teatru și muzică folk. Biblioteca conține o colecție importantă de literatura română, inclusiv opere complete ale lui Ion Creangă.
+
+Casa Culturii este un punct de întâlnire pentru artiștii și intelectualii din zonă, contribuind la promovarea culturii locale și naționale.`,
+    location: 'Târgu Neamț, județul Neamț',
+    period: 'Perioada modernă',
+    accessibility: 'Centru cultural public',
+    schedule: {
+      'Luni-Vineri': '08:00 - 20:00',
+      'Sâmbătă': '09:00 - 14:00',
+    },
+    admission: {
+      'Acces': 'Gratuit',
+    },
+    gallery: [
+      '/casa culturii ion creanga/img1.png',
+    ],
+  },
+  'stadion-cetate': {
+    title: 'Stadionul Cetate',
+    description: 'Stadionul municipal din Târgu Neamț, cu vedere spre cetatea medievală. Arena sportivă a orașului.',
+    image: '/stadion cetate/img1.png',
+    fullDescription: `Stadionul Cetate este principalul Stadion al Târgu Neamțului, situat într-o poziție strategică cu vedere panoramică spre cetatea medievală.
+
+Stadionul găzduiește meciurile echipei locale de fotbal și evenimente sportive regionale. Arena are o capacitate de aproximativ 5.000 de locuri și este dotată cu facilități moderne.
+
+Stadionul este un loc de întâlnire pentru fanii sportului din zonă și contribuie la viața sportivă a comunității locale. Meciurile sunt ocazii de socializare pentru localnici.`,
+    location: 'Târgu Neamț, județul Neamț',
+    period: 'Perioada modernă',
+    accessibility: 'Stadion public',
+    schedule: {
+      'Evenimente': 'Conform programării',
+    },
+    admission: {
+      'Acces': 'La evenimente',
+    },
+    gallery: [
+      '/stadion cetate/img1.png',
+    ],
+  },
+  'statuia-ion-creanga': {
+    title: 'Statuia lui Ion Creangă',
+    description: 'Monumentul sculptural dedicat marelui scriitor Ion Creangă, situat în centrul orașului Târgu Neamț.',
+    image: '/statuia ion creanga/img1.png',
+    fullDescription: `Statuia lui Ion Creangă din Târgu Neamț este un monument realizat de sculptorul Oscar Han, dezvelit în anul 1964. Sculptura îl înfățișează pe marele scriitor într-o postură contemplativă, cu un book în mână.
+
+Monumentul este realizat în bronz și este amplasat în piața centrală a orașului, în apropierea Casei Memorable Ion Creangă. Statuia a devenit un simbol al Târgu Neamțului și atrage vizitatori dornici să se fotografiază cu marelut scriitor.
+
+Locul este un punct de întâlnire pentru turiști și localnici, mai ales în zilele de sărbători literare dedicate lui Ion Creangă.`,
+    location: 'Târgu Neamț, județul Neamț',
+    period: '1964',
+    accessibility: 'Monument în aer liber',
+    schedule: {
+      'Non-stop': 'Acces liber',
+    },
+    admission: {
+      'Acces': 'Gratuit',
+    },
+    gallery: [
+      '/statuia ion creanga/img1.png',
+    ],
+  },
+  'monumentul-eroilor': {
+    title: 'Monumentul Eroilor',
+    description: 'Monument commemorativ ridicat în cinșta eroilor români din Primul Război Mondial și Al Doilea Război Mondial.',
+    image: '/monumentul eroilor/img1.png',
+    fullDescription: `Monumentul Eroilor din Târgu Neamț este un monument impresionant ridicat în cinșta soldaților români care au căzut în Primul și Al Doilea Război Mondial.
+
+Monumentul este amplasat într-un parc din centrul orașului și are forma unei coloane cu un vultur la bază. Pe monument sunt înscrise numele eroilor căzuți din zonă, iar la baza sa arde permanent o flacără eternă.
+
+Monumentul este loc de aducere aminte și de ceremonii patriotice, mai ales de Ziua Eroilor și de 1 Decembrie. Este un simbol al recunoștinței comunității față de cei care au servit țara.`,
+    location: 'Târgu Neamț, județul Neamț',
+    period: 'Secolul XX',
+    accessibility: 'Monument în aer liber',
+    schedule: {
+      'Non-stop': 'Acces liber',
+    },
+    admission: {
+      'Acces': 'Gratuit',
+    },
+    gallery: [
+      '/monumentul eroilor/img1.png',
+    ],
+  },
+  'parcul-natural-vanatori-neamt': {
+    title: 'Rezervația Naturală Parcul Vânători-Neamț',
+    description: 'Arie protejată de interes național cu floră și faună specifică Carpaților Orientali. Habitat pentru zimbri și urși.',
+    image: '/parcul natural vanatori-neamt/img1.png',
+    fullDescription: `Parcul Natural Vânători-Neamț este una dintre cele mai importante arii protejate din România, situat în zona montană a Carpaților Orientali. Parcul a fost înființat pentru a proteja ecosistemele forestiere și pentru a asigura habitatul pentru speciile de mare mamifere.
+
+Parcul este renumit pentru programul de reintroducere a zimbrilor, care au fost aduși aici din zonele vestice ale Europei. Vizitatorii pot observa turme de zimbri în libertate, precum și urși, lupi și cervide.
+
+Traseele turistice din parc oferă oportunități de drumeție și登山, cu puncte de belvedere spre masivele montane înconjurătoare. Centrul de vizitatori oferă informații și ghiduri pentru turiști.`,
+    location: 'Vânători-Neamț, județul Neamț',
+    period: 'Arie protejată',
+    accessibility: 'Parc natural național',
+    schedule: {
+      'Luni-Duminică': '08:00 - 18:00',
+    },
+    admission: {
+      'Adulți': '10 RON',
+      'Elevi/Studenți': '5 RON',
+    },
+    gallery: [
+      '/parcul natural vanatori-neamt/img1.png',
+    ],
+  },
 };
 
 const AttractionDetail = () => {
