@@ -1,10 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import AttractionCard from './AttractionCard';
-import casaCreanga from '@/assets/images/casa-creanga.jpg';
-import manastireaNemt from '@/assets/images/manastirea-neamt.jpg';
-import agapia from '@/assets/images/agapia.jpg';
-import varatec from '@/assets/images/varatec.jpg';
 import museum from '@/assets/images/museum.jpg';
 
 const Attractions = () => {
@@ -39,14 +35,14 @@ const Attractions = () => {
       title: 'Mănăstirea Agapia',
       description:
         'Complex monahal renumit pentru pictura în stil neobizantin a lui Nicolae Grigorescu. Situată într-un cadru natural de poveste, este un loc de linişte şi contemplare.',
-      image: agapia,
+      image: '/manastirea agapia/img1.png',
       slug: 'agapia',
     },
     {
       title: 'Mănăstirea Văratec',
       description:
         'Mănăstire de maici cunoscută pentru atmosfera sa pașnică și pentru frumoasele grădini. Un refugiu spiritual în mijlocul naturii verzi a Moldovei.',
-      image: varatec,
+      image: '/manastirea varatec/img1.png',
       slug: 'varatec',
     },
     {

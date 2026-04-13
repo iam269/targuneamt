@@ -16,7 +16,7 @@ const attractionsData = {
   'cetatea-neamt': {
     title: 'Cetatea Neamțului',
     description: 'Fortificație medievală impresionantă din secolul al XIV-lea, situată pe un deal strategic. Una dintre cele mai bine păstrate cetăți din România, oferă priveliști spectaculoase asupra împrejurimilor.',
-    image: '/cetatea neamt/img7.png',
+    image: '/cetatea neamt/img1.png',
     fullDescription: `Cetatea Neamțului este una dintre cele mai importante fortificații medievale din România, construită în secolul al XIV-lea în timpul domniei lui Petru Mușat. Așezată pe un deal stâncos la 480m altitudine, cetatea domina valea Ozanei și controla drumul comercial dintre Moldova și Transilvania.
 
 În timpul lui Ștefan cel Mare, cetatea a fost consolidată și au fost adăugate turnuri de apărare masive. Zidurile de piatră au o grosime de până la 3 metri în unele locuri, iar turnurile de colț ofereau poziții strategice pentru apărare.
@@ -166,7 +166,7 @@ Mănăstirea găzduiește o comunitate activă de călugărițe care se dedică 
   'varatec': {
     title: 'Mănăstirea Văratec',
     description: 'Mănăstire de maici cunoscută pentru atmosfera sa pașnică și pentru frumoasele grădini. Un refugiu spiritual în mijlocul naturii verzi a Moldovei.',
-    image: varatec,
+    image: '/manastirea varatec/img1.png',
     fullDescription: `Mănăstirea Văratec este una dintre cele mai mari mănăstiri de maici din România, fondată la sfârșitul secolului al XVIII-lea. Situată într-un cadru natural de o frumusețe rară, mănăstirea este înconjurată de grădini bine întreținute și păduri bătrâne.
 
 Arhitectura complexului reflectă diferite perioade istorice, cu clădiri construite și renovate de-a lungul timpului. Biserica principală, cu hramul Adormirea Maicii Domnului, este un exemplu frumos de arhitectură religioasă moldovenească.
@@ -182,12 +182,26 @@ Mănăstirea este cunoscută pentru tradiția sa în iconografie și broderie, i
       'Acces': 'Gratuit',
       'Donatii': 'Opțional',
     },
-    gallery: [varatec, varatec, varatec],
+    gallery: [
+      '/manastirea varatec/img1.png',
+      '/manastirea varatec/img2.png',
+      '/manastirea varatec/img3.png',
+      '/manastirea varatec/img4.png',
+      '/manastirea varatec/img5.png',
+      '/manastirea varatec/img6.png',
+      '/manastirea varatec/img7.png',
+      '/manastirea varatec/img8.png',
+      '/manastirea varatec/img9.png',
+      '/manastirea varatec/img10.png',
+      '/manastirea varatec/img11.png',
+      '/manastirea varatec/img12.png',
+      '/manastirea varatec/img13.png',
+    ],
   },
   'muzeu-istorie': {
     title: 'Muzeul de Istorie și Etnografie',
     description: 'Muzeu care prezintă bogata moștenire istorică și culturală a zonei Neamț, cu exponate ce acoperă perioada de la preistorie până în epoca modernă.',
-    image: museum,
+    image: '/muzeul de istorie si etnografie/img1.png',
     fullDescription: `Muzeul de Istorie și Etnografie din Târgu Neamț este o instituție culturală importantă care păstrează și prezintă patrimoniul istoric al zonei. Colecțiile muzeului includ artefacte din toate perioadele istorice, de la unelte neolitice până la obiecte din epoca modernă.
 
 Secția de arheologie expune descoperiri din siturile antice din apropiere, inclusiv obiecte din cultura Cucuteni, una dintre cele mai vechi civilizații europene. Secția de istorie medievală se concentrează pe perioada de glorie a Cetății Neamțului.
@@ -205,7 +219,16 @@ Secția etnografică prezintă costume tradiționale, unelte agricole, obiecte c
       'Elevi/Studenți': '6 RON',
       'Pensionari': '8 RON',
     },
-    gallery: [museum, museum, museum],
+    gallery: [
+      '/muzeul de istorie si etnografie/img1.png',
+      '/muzeul de istorie si etnografie/img2.png',
+      '/muzeul de istorie si etnografie/img3.png',
+      '/muzeul de istorie si etnografie/img4.png',
+      '/muzeul de istorie si etnografie/img5.png',
+      '/muzeul de istorie si etnografie/img6.png',
+      '/muzeul de istorie si etnografie/img7.png',
+      '/muzeul de istorie si etnografie/img8.png',
+    ],
   },
 };
 
